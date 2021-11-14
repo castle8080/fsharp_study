@@ -97,3 +97,69 @@ val it: int = 3
 We will show how how to use .Net Intractive to run examples from the first chapter
 of Real World Functional Programming.
 
+### 3.4 .Net Interactive From Jupyter
+
+Create a python virtual environment to install jupyter. This step is only needed once. This requires an installation of Python. This probably won't be used for most of the group, but I thought it would be interesting to
+show.
+
+```
+python -mvenv venv
+```
+
+Activate the environment. You will have to do this if you open a new terminal or prompt.
+
+```
+venv\Script\Activate
+```
+
+Install packages to run Jupyter
+
+```
+pip install jupyterlab
+```
+
+Next we will be following instructions from:
+
+https://github.com/dotnet/interactive/blob/main/docs/NotebookswithJupyter.md
+
+Check what kernels are installed in Jupyter.
+
+```
+(venv) C:\Users\bryan\projects\fsharp_study>jupyter kernelspec list
+Available kernels:
+  python3
+```
+
+
+Install .Net interactive
+
+```
+dotnet tool install -g --add-source "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json" Microsoft.dotnet-interactive
+```
+
+Install Jupyter Kernel for .Net Interactive
+
+```
+dotnet interactive jupyter install
+```
+
+You should now see more kernels:
+
+```
+(venv) C:\Users\bryan\projects\fsharp_study>jupyter kernelspec list
+Available kernels:
+  .net-csharp        C:\Users\bryan\AppData\Roaming\jupyter\kernels\.net-csharp
+  .net-fsharp        C:\Users\bryan\AppData\Roaming\jupyter\kernels\.net-fsharp
+  .net-powershell    C:\Users\bryan\AppData\Roaming\jupyter\kernels\.net-powershell
+  python3
+```
+
+Launch jupyter
+
+
+```
+jupyter lab
+```
+
+
+
