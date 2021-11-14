@@ -8,16 +8,17 @@ This book is newer, but does not get into the fundamentals of functional program
 as I had hoped. It seems more foccussed on being useful with F#.
 
 Real World Functional Programming seems to cover functional programming core concepts, but I
-didn't see exercises in the book.
+didn't see exercises in the book. The book has more discussion about the merits and reasons
+for functional progrmaming in the first chapter. I am leaning towards using this book.
 
 I am looking at Functional Programming Using F#. It looks like it covers functional programming
-core concepts + coding exercises.
+core concepts + coding exercises. But not as much discussino about the merits of functional progrmaming.
+
+[Real World Functional Programming](https://www.manning.com/books/real-world-functional-programming?query=real%20world%20functional%20programming)
 
 [Functional Programming Using F#](https://www.amazon.com/Functional-Programming-Using-Michael-Hansen-ebook-dp-B00CARIB52/dp/B00CARIB52/ref=mt_other?_encoding=UTF8&me=&qid=1636733852)
 
 [Expert F# 4.0](https://link.springer.com/book/10.1007/978-1-4842-0740-6?utm_medium=affiliate&utm_source=commission_junction&CJEVENT=25654b34436911ec81945df20a1c0e13&utm_campaign=3_nsn6445_brand_PID9069228&utm_content=de_textlink&?utm_medium=affiliate&utm_term=PID9069228)
-
-[Real World Functional Programming](https://www.manning.com/books/real-world-functional-programming?query=real%20world%20functional%20programming)
 
 ## Reference Material
 
@@ -30,6 +31,12 @@ core concepts + coding exercises.
 [.Net SDK 6.0](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-6.0.100-windows-x64-installer)
 
 Following the instructions to install visual studio code and add the Ionide-fsharp extension.
+
+
+We will be using .Net Interactive during our study sessions. This gives a notebook style interface in VSCode to execute F# code.
+
+[.Net Interactive](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode)
+
 
 ## Getting Started
 
@@ -62,14 +69,6 @@ val it: int = 3
 >
 ```
 
-Writing bits of F# can also be done using notebooks:
-https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode
-
-I think I am going to use this as the first demo for the study group and advocate for using:
-* Visual Studio Code
-* .Net Interactive
-
-While going through the chapters.
 
 ## First Session
 
