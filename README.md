@@ -1,10 +1,25 @@
 # fsharp_study
 
-I will be participating in a study group about F#. We will be using Expert F# 4.0 as the base.
+I will be participating in a study group about F#.
+## Books
 
-## Book / Reference Material
+The group needs to consider which book or other resources to use. I looked at expert F# first.
+This book is newer, but does not get into the fundamentals of functional programming as much
+as I had hoped. It seems more foccussed on being useful with F#.
+
+Real World Functional Programming seems to cover functional programming core concepts, but I
+didn't see exercises in the book.
+
+I am looking at Functional Programming Using F#. It looks like it covers functional programming
+core concepts + coding exercises.
+
+[Functional Programming Using F#](https://www.amazon.com/Functional-Programming-Using-Michael-Hansen-ebook-dp-B00CARIB52/dp/B00CARIB52/ref=mt_other?_encoding=UTF8&me=&qid=1636733852)
 
 [Expert F# 4.0](https://link.springer.com/book/10.1007/978-1-4842-0740-6?utm_medium=affiliate&utm_source=commission_junction&CJEVENT=25654b34436911ec81945df20a1c0e13&utm_campaign=3_nsn6445_brand_PID9069228&utm_content=de_textlink&?utm_medium=affiliate&utm_term=PID9069228)
+
+[Real World Functional Programming](https://www.manning.com/books/real-world-functional-programming?query=real%20world%20functional%20programming)
+
+## Reference Material
 
 [F# Language Reference](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/)
 
@@ -58,7 +73,9 @@ While going through the chapters.
 
 ## First Session
 
-In the first session will mostly be an introduction, share what brought them to the study group,
-what do they expect to get out of it. We will talk about the book and go over a quick demo
-using F# with .Net interactive in visual studio code. We will also set a timeline to go through
-chapter 2.
+First session agenda:
+
+1. Discuss book to use.
+2. Demo visual studio code and using command line to create and run F# project.
+3. Demo and show using .Net Interactive with chapter 1 samples.
+
