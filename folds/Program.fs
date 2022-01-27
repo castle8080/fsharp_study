@@ -4,6 +4,8 @@
 // these functions. The following code are some examples of implementing
 // common higher order functions in terms of fold.
 
+open LSeq
+
 module M =
 
     // Fold is implemented here using recursion.
@@ -79,5 +81,15 @@ let main =
     for s in M.map (fun x -> x * x) xs do
         printfn $"{s}"
     printfn $"{M.sum xs}"
+
+    printfn "Trying out lazy sequence"
+    let xx =
+        LSeq.counter 0
+        |> LSeq.filter (fun x -> (x % 2) = 0)
+        |> LSeq.take 10
+        |> LSeq.toList
+
+    for x in xx do
+        printfn $"{x}"
 
 main
