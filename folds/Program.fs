@@ -65,6 +65,15 @@ module M =
     // more generic higher order function that stops processing
     // at some point.
 
+    // I could implement find using filter.
+    // Now that I think about it, I think it could make sense to implement
+    // find in terms of common functions such as this.
+    // I believe the issue I have with find implemented like this for lists
+    // is that it evaluates the predicate for the whole list even when it doesn't
+    // need to. Having lazy versions of these functions (over sequences) might make sense.
+    let find (p: 'a -> bool) (xs: 'a list): 'a =
+        filter p xs |> List.head
+
 let main =
     let xs = [1;2;3]
     for s in M.map (fun x -> x * x) xs do
